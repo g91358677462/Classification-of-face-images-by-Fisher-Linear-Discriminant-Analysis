@@ -1,7 +1,3 @@
-% = = = = = = = = = = = = = = = = = = = = %
-% Student, ID: 107522121, Name: ¯Î¥¿­è  %
-% = = = = = = = = = = = = = = = = = = = = %
-
 function[W, V, M] = FLDA(X)
     Images = [];
     for i = 1:size(X, 2)
@@ -58,7 +54,7 @@ function ProjectedImages = projectToPCA(FaceMat, Eigenfaces, avgImg)
 end
 
 
-% Calculate "mean vector" ¡B "eigenvectors" and "eigenvalues"
+% Calculate "mean vector" Â¡B "eigenvectors" and "eigenvalues"
 function [avgImg, covVects] = ReconginitionVector(FaceMat, k)
     avgImg = mean(FaceMat, 2);
     diffTrain = FaceMat - avgImg;
