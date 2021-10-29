@@ -1,1 +1,1 @@
-# FLDA-Fisher-Linear-Discriminant-Analysis-face-classification-and-recognition
+# Classification of face images by Fisher Linear Discriminant Analysis(FLDA)
