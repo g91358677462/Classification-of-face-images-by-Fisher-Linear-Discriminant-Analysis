@@ -1,7 +1,3 @@
-% = = = = = = = = = = = = = = = = = = = = %
-% Student, ID: 107522121, Name: ¯Î¥¿­è  %
-% = = = = = = = = = = = = = = = = = = = = %
-
 % Load training and testing data
 function [trainingData, testingData] = prepareCellData()
     trainingData = {};
