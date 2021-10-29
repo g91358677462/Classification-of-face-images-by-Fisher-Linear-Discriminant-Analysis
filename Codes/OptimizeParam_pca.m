@@ -1,6 +1,3 @@
-% = = = = = = = = = = = = = = = = = = = = %
-% Student, ID: 107522121, Name: ¯Î¥¿­è  %
-% = = = = = = = = = = = = = = = = = = = = %
 clear; clc;
 %% main
 [trainingData, testingData] = loadTrainTestSet();
@@ -103,7 +100,7 @@ function [trainingData, testingData] = loadTrainTestSet()
     end
 end
 
-% Calculate "mean vector" ¡B "eigenvectors" and "eigenvalues"
+% Calculate "mean vector" Â¡B "eigenvectors" and "eigenvalues"
 function [avgImg, covVects, eigvals] = ReconginitionVector(FaceMat, k)
     avgImg = mean(FaceMat, 2);
     diffTrain = FaceMat - avgImg;
