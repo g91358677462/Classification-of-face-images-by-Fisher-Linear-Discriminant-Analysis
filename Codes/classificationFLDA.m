@@ -1,6 +1,3 @@
-% = = = = = = = = = = = = = = = = = = = = %
-% Student, ID: 107522121, Name: ¯Î¥¿­è  %
-% = = = = = = = = = = = = = = = = = = = = %
 clear; clc;
 %% main
 [trainingData, testingData] = prepareCellData();
